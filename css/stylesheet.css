@@ -1,0 +1,102 @@
+
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	margin: 0 auto;
+	}
+
+.navhead {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background: #647ee8;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.navhead li {
+	float: left;
+}
+
+.navhead li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navhead li a:hover {
+	background-color: grey;
+}
+
+
+.portfolio {
+	color: #020024;
+	display: grid;
+	grid-template-columns: auto 1fr;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+ 	transform: translate(-50%, -50%);
+ 	background: white;
+ 	padding: 30px;
+ 	border-radius: 10%;
+ 	box-shadow: 10px 10px 8px #c3c9e3;
+
+}
+
+.portfolio img {
+	height: 300px;
+	width: 220px;
+	align-content: center;
+	border-radius: 10%;
+
+
+}
+
+.portfolio img, .logo {
+	justify-content: center;
+
+}
+
+.portfolio h1{
+	font-size: 20px;
+	text-align: center;
+
+}
+.details {
+	float: left;
+	text-align: left;
+	padding-left: 20px;
+}
+a. link {
+	color: #020024;
+	text-decoration: none;
+	padding: 14px 25px;
+
+
+}
+
+a:visited {
+	color: #020024;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #808080;
+	text-decoration: none;
+}
+.footer {
+	color: white;
+	text-align: center;
+	background-color: #647ee8;
+	padding: 1px;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+
+}
+

@@ -3,18 +3,18 @@
 body {
 	font-family: 'Quicksand', sans-serif;
 	margin: 0 auto;
- 
-	
+/*add gradient background*/
 	}
 
 
 .navhead {
+/*code to make the navigation bar on the top*/
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background: transparent;
-   background: linear-gradient(90deg, transparent 0%, rgba(151,222,255,1) 100%);
+  background: linear-gradient(90deg, transparent 0%, rgba(151,222,255,1) 100%);
   position: fixed;
   top: 0;
   width: 100%;
@@ -38,14 +38,20 @@ body {
 }
 
 
+/*adding grid like component so it looks like a card, 
+adding shadow box with the shadow box website,
+*/
+
 .portfolio {
 	color: #020024;
+/*start here to make a block like display*/
 	display: grid;
 	grid-template-columns: auto 1fr;
 	position: absolute;
 	left: 50%;
 	top: 50%;
  	transform: translate(-50%, -50%);
+ /*stop here to make a block like*/
  	border-left: 2px solid rgba(151,222,255,1);
  	box-shadow: -19px -14px 49px 0px rgba(139,183,191,0.28);
 
@@ -71,6 +77,8 @@ body {
 	
 }
 .details {
+
+/*float makes it move to the left as in floating*/
 	float: left;
 	text-align: left;
 	padding-left: 20px;
@@ -97,9 +105,11 @@ a:hover {
 	text-align: center;
 	background-color: rgba(151,222,255,1);
 	padding: 1px;
+/*code to keep the footer at the bottom always*/
 	position: absolute;
 	bottom: 0;
 	width: 100%;
-background: linear-gradient(90deg, rgba(151,222,255,1) 0%, rgba(174,238,211,1) 100%);
+/*code to make the footer gradients*/
+   background: linear-gradient(90deg, rgba(151,222,255,1) 0%, rgba(174,238,211,1) 100%);
 }
 
